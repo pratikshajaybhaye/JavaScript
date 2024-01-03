@@ -71,5 +71,5 @@ console.log(p);
 var ssc = 75;
 var hsc = 65;
 // Only Allow if ssc marks is graeter than equal 60 AND hsc greater than 65
- var result = ssc>=60 && hsc>65 ? "Allow for Interview": "Don't allow Please"
+ var result = ssc>=60 && hsc >= 65 ? "Allow for Interview": "Don't allow Please"
  console.log(`Security guard is Saying: ${result}`);
