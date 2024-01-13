@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Session Storage</title>
+  </head>
+  <body>
+    <h2>Session Storage</h2>
+    <script>
+      console.log(window.location.href);
+      window.sessionStorage.setItem("firstName", "Pratiksha");
+      window.sessionStorage.setItem("lastName", "Jaybhaye");
+      window.sessionStorage.setItem("country", "India");
+      window.sessionStorage.setItem("city", "Mumbai");
+      console.log(window.sessionStorage.length);
+      console.log(window.sessionStorage.getItem("city"));
+      console.log(window.sessionStorage.removeItem("lastName"));//Remove the last name
+    </script>
+  </body>
+</html>
