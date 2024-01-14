@@ -33,3 +33,19 @@ console.log(`+= Compund Addition is: ${num} `);
 var num = 10;
 num -= 5; //  num = num - 5;
 console.log(`+= Compund Substraction is: ${num} `)
+
+var num = 10;
+num *= 5; //  num = num * 5;
+console.log(`*= Compund Multiplication is: ${num} `)
+
+var num = 10;
+num /= 5; //  num = num / 5;
+console.log(`/= Compund Division is: ${num} `)
+
+var num = 10;
+num %= 5; //  num = num % 5;
+console.log(`%= Compund Modulus is: ${num} `)
+
+var a= 7;
+var b = 2;
+a==b;
