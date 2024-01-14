@@ -87,3 +87,40 @@ console.log(developer.skills);
 console.log(`----Remove the c in skills`);
 developer.skills.shift("c")
 console.log(developer.skills);
+
+const keys = Object.keys(developer);
+console.log(keys);
+
+const values = Object.values(developer);
+console.log(values);
+
+console.log(`Is Values are array : ${Array.isArray(values)}`);
+
+console.log(`------Traverse of Array------`);
+for (const element of values) {
+    console.log(element);
+}
+
+console.log(`---Enteries of Array----`);
+const enteries = Object.entries(developer);
+console.log(enteries);
+
+const enteriess= [["firstName", "Pratiksha"], ["Age", 24]];
+const entry = enteriess[0];
+console.log(entry[0]); 
+console.log(entry[1]); 
+console.log(enteriess[1][1]); 
+
+for (const element of enteriess) {
+    console.log(element[0], ",", element[1]);
+}
+
+console.log(`Accessing Nested array element using double [] [] brackets`);
+console.log(enteriess[0][0]); 
+console.log(enteriess[0][1]); 
+
+console.log(`-----in Operator-----`);
+const isAgeAvailable = "age" in developer;
+console.log(`Is Age Available: ${isAgeAvailable}`);
+const isCityAvailable = "City" in developer
+console.log(`Is City Avaialble: ${isCityAvailable}`);
