@@ -29,10 +29,9 @@ const isPalindrome = function (word){
 const arrayNums = [21,11,40,25,9,61,50];
 const arrayPrime = [];
 for (const element of arrayNums) {
-    if (isPrime(element)) {
+    if ((element)) {
         arrayPrime.push(element);
     }
 }
-console.log(arrayPrime);
-console.log(arrayPrime.length);
+console.log(arrayNums);
 
