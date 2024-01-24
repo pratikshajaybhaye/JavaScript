@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise time!</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1 id="heading">
+                HTML and JavaScript are crucial technologies
+            </h1>
+            <p> The Web would not work without them...</p>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li id="avail">Available</li>
+                <li>Magical</li>
+            </ul>
+        </div>
+    </main>
+    <script>
+        const mainHeading = document.querySelector('#heading')
+        console.log(mainHeading.innerHTML);
+        const secondAdvantage = document.querySelector('#avail')
+        console.log(secondAdvantage.innerHTML);
+        const advdiv = document.querySelector('#advantages')
+        console.log(advdiv.innerHTML);
+    </script>
+</body>
+</html>
