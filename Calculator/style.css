@@ -1,0 +1,59 @@
+
+body{
+    background-color:beige;
+}
+
+.container{
+    border: 2px solid red;
+    text-align: center;
+    margin: 100px 420px;
+    padding: 20px 50px;
+    background-color: lightblue;
+    box-shadow:coral;
+    border-radius: 10px;
+}
+.field{
+   margin-top: 15px;
+   padding: 10px;
+   border-radius: 10px;
+   border: 1px solid green;
+}
+.calculate{
+    padding-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#number{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+
+label{
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span{
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+h2{
+    font-size: xx-large;
+}
+.submit{
+   margin: 15px;  
+   padding: 10px 30px;
+   border-radius: 10px;
+   border: 1px solid green;
+   font-weight: bold;
+   background-color:rgb(233, 206, 195);
+   font-family: sans-serif;
+}
+.result{
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
