@@ -47,6 +47,8 @@ class User {
 }
 
 // instanceof operator
+
+//Check the type of Object
 console.log(elon instanceof Student);
 console.log(stew instanceof User);
 
