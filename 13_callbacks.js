@@ -26,12 +26,12 @@ let great = function () {
 
 // setTimeout(greet,5000); //1 sec = 1000 Milli Seconds
 
-// setTimeout(function () {
-//     for (let index = 0; index < 5; index++) {
-// console.log(index);        
-//     }
+setTimeout(function () {
+    for (let index = 0; index < 5; index++) {
+console.log(index);        
+    }
     
-// },3000);
+},3000);
 
 
 // setInterval (function () {
